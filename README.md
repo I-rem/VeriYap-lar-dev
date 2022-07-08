@@ -1,1 +1,1 @@
-# VeriYap-lar-dev
+# VeriYapıları ve Algoritmalar Ödev
