@@ -55,7 +55,22 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? 18 ortada bu
 [16,21,11,8,12,22] -> Merge Sort
 
 Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
-Big-O gösterimini yazınız.
+<pre>
+[16][21][11][8][12][22]
+       /          \
+[16][21][11]    [8][12][22]
+     /    \        /    \
+[16][21]  [11]  [8][12]  [22]
+  /  \      |     /  \     |
+[16] [21] [11]  [8] [12]  [22]
+  \   /     \    /    \    /
+[16][21]   [8][11]   [12][23] 
+        \   /        / 
+[8][11][16][21]  [12][23] 
+            \     / 
+[8][11][12][23][16][21]
+</pre>
+Big-O gösterimini yazınız: O(nlogn)
 
 ## Ödev 3
 
