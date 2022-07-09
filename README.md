@@ -52,19 +52,97 @@ Big-O gösterimini yazınız.
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
 1.Root 7'dir
-
->7
-
+<pre>
+7
+</pre>
 2.5 < 7, 
   5, 7'nin soluna gelir
-
-> 7
-
->5
-
+<pre>
+  7
+ /
+5
+</pre>
 3.1<7
   1 7'nin soluna
   1<5
   1,5'in soluna
+<pre>
+    7
+   /
+  5
+ /
+1
+</pre>
 
 
+<pre>
+    7
+   / \
+  5   8
+ /
+1
+</pre>
+
+<pre>
+    7
+   / \
+  5   8
+ /
+1
+ \
+  3
+</pre>
+
+<pre>
+    7
+   / \
+  5   8
+ / \
+1   6
+ \
+  3
+</pre>
+
+<pre>
+      7
+     / \
+    5   8
+   / \
+  1   6
+ / \
+0   3
+</pre>
+
+<pre>
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3      
+</pre>
+
+<pre>
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+     \
+      4
+</pre>
+
+<pre>
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+   / \
+  2   4
+</pre>
